@@ -1,0 +1,16 @@
+[user]
+	email = ashidaharo@gmail.com
+	name = haro ashida
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	quotepath = false
+	ignorecase = false
+	safecrlf = true
+	autocrlf = input
+[push]
+	default = simple
+[credential]
+	helper = cache

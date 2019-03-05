@@ -13,6 +13,8 @@ rsync --exclude ".git/" \
 	-avh --no-perms . ~;
 source ~/.profile;
 
-if uname -r | grep -i 'microsoft'; then
-	bash ./wsl/wsl_deploy.bash
+if uname -r | grep -iqs 'microsoft'; then
+	cd ./wsl
+	bash ./wsl_deploy.bash
+	cd ..
 fi

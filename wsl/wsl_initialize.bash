@@ -17,3 +17,7 @@ sudo update-locale LANG=ja_JP.UTF-8
 sudo sh -c 'echo "Asia/Tokyo" > /etc/timezone'
 sudo dpkg-reconfigure -f noninteractive tzdata
 
+# Windows側のフォントをLinux上でも使えるようにする Ubuntu使うと思うからapt決め打ちしておく
+sudo apt -y install fontconfig
+sudo ln -s /mnt/c/Windows/Fonts /usr/share/fonts/windows
+sudo fc-cache -fv

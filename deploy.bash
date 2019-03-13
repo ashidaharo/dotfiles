@@ -6,6 +6,7 @@ rsync --exclude ".git/" \
 	--exclude ".DS_Store" \
 	--exclude "install.bash" \
 	--exclude "deploy.bash" \
+	--exclude "apt.bash" \
 	--exclude "Makefile" \
 	--exclude "wsl" \
 	--exclude "README.md" \

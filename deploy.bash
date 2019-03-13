@@ -4,7 +4,7 @@ git pull origin master
 
 rsync --exclude ".git/" \
 	--exclude ".DS_Store" \
-	--exclude "install.bash" \
+	--exclude "initialize.bash" \
 	--exclude "deploy.bash" \
 	--exclude "apt.bash" \
 	--exclude "Makefile" \

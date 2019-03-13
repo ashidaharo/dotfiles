@@ -5,3 +5,6 @@
 make init
 make deploy
 ```
+
+## WARNING
+https://github.com/Microsoft/WSL/issues/648#issuecomment-232404392
